@@ -1,0 +1,30 @@
+{
+    "name": "verdient/hua-han",
+    "description": "HuaHan",
+    "type": "library",
+    "keywords": [
+        "HuaHan"
+    ],
+    "homepage": "https://github.com/Verdient/HuaHan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/HuaHan/issues",
+        "source": "https://github.com/Verdient/HuaHan"
+    },
+    "require": {
+        "php": "^8.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\HuaHan\\": "src"
+        }
+    }
+}
